@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parity-guard"
+version = "1.0.0"
+description = "Behavioral parity verification and differential testing engine for code migrations and rewrites."
+readme = "README.md"
+authors = [{ name = "Amz34" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+parity-guard = "parity_guard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["parity_guard*"]
