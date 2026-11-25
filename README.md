@@ -6,7 +6,7 @@
 
 > Behavioral parity verification and differential testing engine for code rewrites, language ports, and runtime migrations.
 
-![Parity Guard Architecture](assets/parity-guard-overview.jpg)
+![Parity Guard Architecture](assets/architecture-overview.svg)
 
 ## Why Parity Guard?
 
